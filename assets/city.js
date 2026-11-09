@@ -120,7 +120,7 @@
   /* ---------- the city ---------- */
   var cityB = new Builder();
   var S = mobile ? 2.5 : 2.1, N = mobile ? 7 : 10, gx, gz;
-  var CTX = -7.6, CTZ = 5.6; /* Calgary Tower nod */
+  var CTX = -7.6, CTZ = 5.6; /* landmark tower */
   for (gx = -N; gx <= N; gx++) {
     for (gz = -N; gz <= N; gz++) {
       var x = gx * S + (rand() - 0.5) * 0.35, z = gz * S + (rand() - 0.5) * 0.35;

@@ -9,6 +9,6 @@ DEPLOY (Cloudflare Pages, no code needed)
 5. In Google Search Console, add the domain and submit https://maserconstruction.com/sitemap.xml
 
 EDIT
-Pages are plain HTML files in folders (services/, resources/, calgary/, ...).
+Pages are plain HTML files in folders (services/, resources/, areas/, ...).
 Shared styles: assets/style.css. Menu and form script: assets/site.js.
 If you add or remove a page, update sitemap.xml.
