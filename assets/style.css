@@ -101,5 +101,7 @@ main,.site-footer,.crumbs{position:relative;z-index:1}
 #stamp.on{opacity:1;transform:rotate(-9deg) scale(1)}
 .cur{position:fixed;left:0;top:0;width:36px;height:36px;margin:-18px 0 0 -18px;border:2px solid var(--c1);border-radius:50%;pointer-events:none;z-index:70;opacity:0;transform:translate(var(--x,0),var(--y,0)) scale(var(--s,1));transition:transform .16s,opacity .2s}
 .cur.on{opacity:.75}
+.geogrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:22px}.geo{background:rgba(7,11,30,.55);border:1px solid var(--line);border-radius:16px;padding:18px 20px}.geo h3{margin:0 0 .5em}.geo h3 a{color:var(--ink);text-decoration:none}.geo h3 a:hover{color:var(--c1)}.cl{display:flex;flex-wrap:wrap;gap:6px 14px;margin:0}.cl a{font-size:.93rem}
+.fgrid{grid-template-columns:1.4fr 1.2fr 1fr 1fr 1.2fr}
 @media (prefers-reduced-motion:reduce){.ln i{animation:none}.js .panel:not(.hero-panel){opacity:1;transform:none;transition:none}#stamp,.cur{transition:none}}
 @media (max-width:900px){.scene{padding:84px 16px 36px;align-items:flex-end}.scene.r,.scene.c{justify-content:flex-start}.panel{padding:22px}.dots,#hud,.cur{display:none}#stamp{left:5vw;top:12vh;font-size:1.5rem}}
